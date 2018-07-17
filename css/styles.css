@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin: 0;
+}
+aside {
+	width: 5%;
+	height: 1396px;
+}
+
+main {
+    width: 95%;
+}
+
+.blue-bar i {
+    height: 30px;
+    width: 30px;
+    margin: 0 auto;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.blue-bar {
+    display: flex;
+    flex-direction: column;
+    background: #1111ecab;
+    text-align: center;
+    height: 100%;
+}
+
+
+.blue-bar i.fa:hover {
+    background: #07518c;
+    padding: 10px;
+}
